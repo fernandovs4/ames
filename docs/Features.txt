@@ -1,0 +1,88 @@
+O conjunto de dados "AmesHousing.txt" contém informações sobre propriedades residenciais vendidas em Ames, Iowa, de 2006 a 2010. Este conjunto de dados é frequentemente usado para tarefas de regressão, como prever os preços de venda das casas com base em várias características. Aqui estão as descrições detalhadas de algumas das características (features) neste conjunto de dados:
+
+1. **Order (Discreto)**: Número de observação.
+2. **PID (Nominal)**: Número de identificação da parcela, que pode ser usado para revisar a parcela no site da cidade.
+3. **MS SubClass (Nominal)**: Identifica o tipo de moradia envolvida na venda.
+   - Valores: Diversos tipos de moradia, como casas de um andar, casas de um andar mais antigas, casas de dois andares, etc.
+4. **MS Zoning (Nominal)**: Classificação de zoneamento da venda.
+   - Valores: Diferentes classificações de zoneamento, como Agricultura, Comercial, etc.
+5. **Lot Frontage (Contínuo)**: Comprimento linear da rua conectado à propriedade.
+6. **Lot Area (Contínuo)**: Tamanho do lote em pés quadrados.
+7. **Street (Nominal)**: Tipo de acesso rodoviário à propriedade (por exemplo, asfalto ou cascalho).
+8. **Alley (Nominal)**: Tipo de acesso à rua da propriedade (por exemplo, asfalto, cascalho ou nenhum acesso).
+9. **Lot Shape (Ordinal)**: Forma geral da propriedade (por exemplo, regular, ligeiramente irregular).
+10. **Land Contour (Nominal)**: Planura da propriedade (por exemplo, plano, íngreme).
+11. **Utilities (Ordinal)**: Tipo de utilidades disponíveis (por exemplo, todas as utilidades públicas ou eletricidade, gás e água com tanque séptico).
+12. **Lot Config (Nominal)**: Configuração do lote (por exemplo, lote interno, esquina, cul-de-sac).
+13. **Land Slope (Ordinal)**: Inclinação da propriedade (por exemplo, suave, moderada, severa).
+14. **Neighborhood (Nominal)**: Localizações físicas dentro dos limites da cidade de Ames.
+15. **Condition 1 (Nominal)**: Proximidade de várias condições à propriedade (por exemplo, adjacente a estrada arterial, normal).
+16. **Condition 2 (Nominal)**: Proximidade de várias condições (se mais de uma estiver presente).
+17. **Bldg Type (Nominal)**: Tipo de moradia (por exemplo, unifamiliar, duplex).
+18. **House Style (Nominal)**: Estilo da moradia (por exemplo, casa de um andar, casa de dois andares).
+19. **Overall Qual (Ordinal)**: Avalia a qualidade geral e o acabamento da casa.
+20. **Overall Cond (Ordinal)**: Avalia a condição geral da casa.
+21. **Year Built (Discreto)**: Data de construção original.
+22. **Year Remod/Add (Discreto)**: Data de remodelação/adaptação (mesma data de construção se não houver remodelação).
+23. **Roof Style (Nominal)**: Tipo de telhado (por exemplo, plano, em forma de galpão).
+24. **Roof Matl (Nominal)**: Material do telhado (por exemplo, telha de argila, composto padrão).
+25. **Exterior 1 (Nominal)**: Revestimento exterior da casa.
+26. **Exterior 2 (Nominal)**: Revestimento exterior da casa (se mais de um material).
+27. **Mas Vnr Type (Nominal)**: Tipo de revestimento de alvenaria.
+28. **Mas Vnr Area (Contínuo)**: Área de revestimento de alvenaria em pés quadrados.
+29. **Exter Qual (Ordinal)**: Avalia a qualidade do material exterior.
+30. **Exter Cond (Ordinal)**: Avalia a condição presente do material exterior.
+31. **Foundation (Nominal)**: Tipo de fundação.
+32. **Bsmt Qual (Ordinal)**: Avalia a altura do porão.
+33. **Bsmt Cond (Ordinal)**: Avalia a condição geral do porão.
+34. **Bsmt Exposure (Ordinal)**: Refere-se a paredes no nível de saída ou jardim do porão.
+35. **BsmtFin Type 1 (Ordinal)**: Classificação da área do porão finalizada.
+36. **BsmtFin SF 1 (Contínuo)**: Área finalizada do tipo 1 do porão em pés quadrados.
+37. **BsmtFin Type 2 (Ordinal)**: Classificação da segunda área do porão finalizada (se houver).
+38. **BsmtFin SF 2 (Contínuo)**: Área finalizada do tipo 2 do porão em pés quadrados.
+39. **Bsmt Unf SF (Contínuo)**: Área não finalizada do porão em pés quadrados.
+40. **Total Bsmt SF (Contínuo)**: Área total do porão em pés quadrados.
+41. **Heating (Nominal)**: Tipo de aquecimento (por exemplo, forno de piso, aquecimento a gás).
+42. **HeatingQC (Ordinal)**: Qualidade e condição do sistema de aquecimento.
+43. **Central Air (Nominal)**: Ar condicionado central (Sim ou Não).
+44. **Electrical (Ordinal)**: Sistema elétrico.
+45. **1st Flr SF (Contínuo)**: Área do primeiro andar em pés quadrados.
+46. **2nd Flr SF (Contínuo)**: Área do segundo andar em pés quadrados.
+47. **Low Qual Fin SF (Contínuo)**: Área finalizada de baixa qualidade em todos os andares.
+48. **Gr Liv Area (Contínuo)**: Área de estar acima do solo em pés quadrados.
+49. **Bsmt Full Bath (Discreto)**: Banheiros completos no porão.
+50. **Bsmt Half Bath (Discreto)**: Banheiros parciais no porão.
+51. **Full Bath (Discreto)**: Banheiros completos acima do solo.
+52. **Half Bath (Discreto)**: Meio banheiros acima do solo.
+53. **Bedroom (Discreto)**: Quartos acima do solo (não inclui quartos no porão).
+54. **Kitchen (Discreto)**: Cozinhas acima do solo.
+55. **KitchenQual (Ordinal)**: Qualidade da cozinha.
+56. **TotRmsAbvGrd (Discreto)**: Total de quartos acima do solo (não inclui banheiros).
+57. **Functional (Ordinal)**: Funcionalidade da casa (assuma típica a menos que deduções sejam justificadas).
+58. **Fireplaces (Discreto)**: Número de lareiras.
+59. **FireplaceQu (Ordinal)**: Qualidade da lareira.
+60. **Garage Type (Nominal)**: Localização da garagem.
+61. **Garage Yr Blt (Discreto)**: Ano de construção da garagem.
+62. **Garage Finish (Ordinal)**: Acabamento interior da garagem.
+63. **Garage Cars (Discreto)**: Tamanho da garagem em capacidade de carros.
+64. **Garage Area (Contínuo)**: Tamanho da garagem em pés quadrados.
+65. **Garage Qual (Ordinal)**: Qualidade da garagem.
+66. **Garage Cond (Ordinal)**: Condição da garagem.
+67. **Paved Drive (Ordinal)**: Entrada pavimentada.
+68. **Wood Deck SF (Contínuo)**: Área do deck de madeira em pés quadrados.
+69. **Open Porch SF (Contínuo)**: Área da varanda aberta em pés quadrados.
+70. **Enclosed Porch (Contínuo)**: Área da varanda fechada em pés quadrados.
+71. **3-Ssn Porch (Contínuo)**: Área da varanda de três estações em pés quadrados.
+72. **Screen Porch (Contínuo)**: Área da varanda de tela em pés quadrados.
+73. **Pool Area (Contínuo)**: Área da piscina em pés quadrados.
+74. **Pool QC (Ordinal)**: Qualidade da piscina.
+75. **Fence (Ordinal)**: Qualidade da cerca.
+76. **Misc Feature (Nominal)**: Recurso diverso não coberto em outras categorias.
+77. **Misc Val (Contínuo)**: Valor do recurso diverso em dólares.
+78. **Mo Sold (Discreto)**: Mês de venda.
+79. **Yr Sold (Discreto)**: Ano de venda.
+80. **Sale Type (Nominal)**: Tipo de venda.
+81. **Sale Condition (Nominal)**: Condição da venda.
+82. **SalePrice (Contínuo)**: Preço de venda em dólares.
+
+Estas são as características (features) disponíveis neste conjunto de dados, com informações sobre seu tipo e descrição. Este conjunto de dados é útil para análises de preços de imóveis e modelagem de regressão para prever o preço de venda com base nas características da propriedade. É importante notar que algumas características são nominais, algumas são ordinais e outras são contínuas, o que permite uma variedade de abordagens de análise estatística e modelagem.
