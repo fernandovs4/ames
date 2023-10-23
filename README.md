@@ -1,6 +1,8 @@
 # Exploratory Analysis of the Ames dataset.
 ## Dupla: Esdras G. Carvalho e Fernando V. dos Santos
 
+Notebook com a análise completa: notebooks\regression_model_for_ames_EsdrasG_FernandoS.ipynb
+
 ## Set up your environment
 
 It is preferrable to use Anaconda (https://anaconda.org/) for this project.
