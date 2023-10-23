@@ -1,4 +1,5 @@
 # Exploratory Analysis of the Ames dataset.
+## Dupla: Esdras G. Carvalho e Fernando V. dos Santos
 
 ## Set up your environment
 
